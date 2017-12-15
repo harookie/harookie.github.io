@@ -2,7 +2,6 @@ _site
 .sass-cache
 .jekyll-metadata
 
+.idea
 Gemfile.lock
-/harookie.github.io.iml
-/.idea/
 harookie.github.io.iml

@@ -2,7 +2,11 @@
 layout: post
 title: Jekyll Linux 세팅
 ---
-#### 1. 필수 패키지 설치
+
+### 
+
+### 1. 필수 패키지 설치
+
 ```bash
 sudo apt install build-essential dh-autoreconf -y
 sudo apt install gcc libffi6 libffi-dev -y
