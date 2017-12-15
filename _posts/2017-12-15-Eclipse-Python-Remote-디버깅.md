@@ -91,7 +91,7 @@ if __name__ == "__main__":
 
 #### 디버깅 서버 실행
 
-**Debug Perspective**로 전환 후 메인 메뉴의 **pydev | Start Debug Server**를 실행하면, 디버깅 서버가 실행된다.
+**Debug Perspective**로 전환 후 메인 메뉴의 **pydev \| Start Debug Server**를 실행하면, 디버깅 서버가 실행된다.
 `Debug Server at port: 5678` 이라는 메시지와 함께 해당 포트로 클라이언트의 접속을 대기한다.
 
 ![run debugging]

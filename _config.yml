@@ -39,10 +39,11 @@ plugins:
 
 
 permalink: /:title
-theme: jekyll-theme-cayman
 title: Your awesome title
 email: harookie@gmail.com
 description: >- 
   테스트를 해보자 테스트를!!
 show_downloads: false
-github.is_project_page: false
+theme: jekyll-theme-cayman
+#theme: jekyll-theme-minimal
+#theme: jekyll-theme-slate

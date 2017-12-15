@@ -83,7 +83,7 @@ if __name__ == "__main__":
 
 #### Intellij Remote 디버깅 Configuration 추가
 
-IntelliJ의 **Run | Edit Configurations | Python Remote Debug**에서 신규 항목을 추가한 뒤, 아래와 같이 설정한다.
+IntelliJ의 **Run \| Edit Configurations \| Python Remote Debug**에서 신규 항목을 추가한 뒤, 아래와 같이 설정한다.
 
 - local host name : PC의 IP
 - Port : 디버깅 서버 port
