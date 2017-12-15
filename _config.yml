@@ -43,4 +43,4 @@ plugins:
 #   - vendor/ruby/
 
 
-permalink: /:title
+permalink: /:title.html
