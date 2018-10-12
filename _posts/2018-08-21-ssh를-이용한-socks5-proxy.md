@@ -11,7 +11,3 @@ sshpass -p<암호> ssh -D <IP or Domain Name>:<port> -f -N -C -q localhost
 ```bash
 sshpass -ppwstring ssh -D 192.168.0.1:1009 -f -N -C -q localhost
 ```
-
-```base
-sshpass -pcamell ssh -D 192.168.0.2:19999 -f -N -C -q localhost
-```
