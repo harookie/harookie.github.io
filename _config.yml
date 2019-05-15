@@ -18,3 +18,4 @@ plugins:
   - jekyll-feed
   - jekyll-paginate
 remote_theme : BlackrockDigital/startbootstrap-clean-blog-jekyll
+theme: jekyll-theme-cayman
