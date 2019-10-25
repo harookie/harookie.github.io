@@ -1,0 +1,21 @@
+title:             Clean Blog
+email:             harookie@gmail.com
+description:       A Blog Theme by Start Bootstrap
+author:            Start Bootstrap
+baseurl:           ""
+url:               "https://harookie.github.io"
+
+# Social Profiles
+twitter_username:  SBootstrap
+github_username:   BlackrockDigital
+facebook_username: StartBootstrap
+
+# Build settings
+markdown:          kramdown
+paginate:          5
+paginate_path:     "/posts/page:num/"
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+remote_theme : BlackrockDigital/startbootstrap-clean-blog-jekyll
+theme: jekyll-theme-slate
