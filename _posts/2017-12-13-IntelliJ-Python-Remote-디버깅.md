@@ -69,7 +69,9 @@ if __name__ == "__main__":
     main()
 ```
 
+```bash
 > test_remote.py --debug_ip=<ip> --debug_port=<port>
+```
 
 #### Intellij Remote 디버깅 Configuration 추가
 
