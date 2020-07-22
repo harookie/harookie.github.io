@@ -11,7 +11,7 @@ OS, DB, 파일시스템등 데스크탑에서 작성할때는 문제 없이 동�
 
 원격 디버깅의 간단한 흐름은 아래와 같다.
 
-1. PC의 Intellij에서 디버깅 서버 시작
+1. PC의 Intellij에서 python debug server 시작
 1. AP 서버의 client 클라이언트 수행, 디버깅 서버 접속
 1. remote 디버깅 시작
 
@@ -21,33 +21,23 @@ OS, DB, 파일시스템등 데스크탑에서 작성할때는 문제 없이 동�
 
 - AP 서버 : 디버깅을 수행하려는 서버
 - PC : IntelliJ을 실행하는 데스크탑 PC
-- 디버깅 클라이언트 : AP서버에서 실행되는 디버깅 코드가 삽입된 대상 스크립트를 수행한 프로세스
-- 디버깅 서버 : IntelliJ에서 실행되는 디버깅을 위해 실행되는 서버 프로그램
+- 디버깅 클라이언트 : AP서버에서 실행되는 디버깅 대상 프로세스
+- 디버깅 서버 : PC의 IntelliJ에서 실행되는 디버깅을 위해 실행되는 서버 프로그램
 
-#### pydevd 설치
+#### pydevd-pycharm 설치
 
 스크립트에서 호출되어 remote 디버깅을 수행하는 파이썬 라이브러리이다.  
-pip 혹은 소스로 PC와 AP 서버에 모두 설치한다.  
-소스의 경우 [여기]에서 다운로드 받으면 된다.  
-root계정이 아닌경우 --user 옵션을 주어 user계정 아래 모듈이 설치되도록 한다.  
-설치 직후 'import pydevd'를 수행하면 아래와 warning이 발생하는데, 지시와 같이 명령을 수행하면 사라진다.
+pip 혹은 소스로 AP 서버에 설치한다.  
 
-```bash
-$ cd ~
-$ python $PYDEVD_DOWNLOAD_PATH/setup.py build
-$ python $PYDEVD_DOWNLOAD_PATH/setup.py install --user
-$ python
-Python 2.7.12 (default, Dec 20 2016, 21:15:56)
-[GCC 4.4.7 20120313 (Red Hat 4.4.7-17)] on linux2
-Type "help", "copyright", "credits" or "license" for more information.
->>> import pydevd
-warning: Debugger speedups using cython not found. Run '"/usr/local/bin/python2.7" "setup_cython.py" build_ext --inplace' to build.
->>>
-$ "/usr/local/bin/python2.7" "setup_cython.py" build_ext --inplace
-running build_ext
-copying build/lib.linux-x86_64-2.7/_pydevd_bundle/pydevd_cython.so -> _pydevd_bundle
-$
-```
+해당 라이브러리는 아래중에 선택해 설치한다.
+
+1. pip를 이용해 설치 
+1. intellij python plugin 제공 파일 설치 
+   -  위치 : `C:\Users\<username>\AppData\Roaming\JetBrains\IntelliJIdea<versrion>\plugins\python\pydevd-pycharm.egg`
+   - `python -m easy_install pydevd-pycharm.egg`
+1. [pypi.org/project/pydevd-pycharm]에서 다운로드후 설치
+
+root계정이 아닌경우 --user 옵션을 주어 user계정 아래 모듈이 설치되도록 한다.  
 
 #### 클라이언트 코드 추가
 
@@ -56,6 +46,7 @@ Remote 디버깅을 하려면, 약간의 추가적인 코드가 필요하다.
 핵심 코드는 `pydevd.settrace()`를 호출, 디버깅 서버에 접속하는 코드를 추가해주는 것이다.
 
 ```python
+# filename : test_remote.py
 import pydevd
 import argparse
 
@@ -78,7 +69,7 @@ if __name__ == "__main__":
     main()
 ```
 
-> test_remote.py
+> test_remote.py --debug_ip=<ip> --debug_port=<port>
 
 #### Intellij Remote 디버깅 Configuration 추가
 
@@ -109,7 +100,7 @@ AP 서버에서 클라이언트 스크립트 실행
 
 ![debugging]
 
-[여기]: https://pypi.python.org/pypi/pydevd
+[pypi.org/project/pydevd-pycharm]: https://pypi.org/project/pydevd-pycharm/
 [debug configuration]: /user_images/2017-12-13-IntelliJ-Python-Remote-디버깅/001.png
 [run debugging]: /user_images/2017-12-13-IntelliJ-Python-Remote-디버깅/002.png
 [run client script]: /user_images/2017-12-13-IntelliJ-Python-Remote-디버깅/003.png
