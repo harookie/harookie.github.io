@@ -107,7 +107,7 @@ AP 서버에서 클라이언트 스크립트 실행
 ![debugging]
 
 [여기]: https://pypi.python.org/pypi/pydevd
-[install pydev]: /user_images/2017-12-15-Eclipse-Python-Remote-디버깅/001.png
-[run debugging]: /user_images/2017-12-15-Eclipse-Python-Remote-디버깅/002.png
-[run client script]: /user_images/2017-12-15-Eclipse-Python-Remote-디버깅/003.png
-[debugging]: /user_images/2017-12-15-Eclipse-Python-Remote-디버깅/004.png
+[install pydev]: /images/2017-12-15-Eclipse-Python-Remote-디버깅/001.png
+[run debugging]: /images/2017-12-15-Eclipse-Python-Remote-디버깅/002.png
+[run client script]: /images/2017-12-15-Eclipse-Python-Remote-디버깅/003.png
+[debugging]: /images/2017-12-15-Eclipse-Python-Remote-디버깅/004.png
