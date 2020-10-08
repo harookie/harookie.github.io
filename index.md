@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 title: outlook 메일 삭제 방지
 categories: job
 ---
@@ -11,9 +11,12 @@ categories: job
 데이터 파일을 추가한다.
 추가를 위한 메뉴는 다음 경로와 같다.  
 `파일 | 정보(탭) | 계정설정 | 계정설정 | 데이터 파일(탭) | 추가`  
+
 <div>
 
-![데이터파일추가01](/images/2020-10-07-outlook에_메일_보관하기/001.png)</div>
+![데이터파일추가01](/images/2020-10-07-outlook에_메일_보관하기/001.png)
+
+</div>
 
 ![데이터파일추가02](/images/2020-10-07-outlook에_메일_보관하기/002.png)
 ![데이터파일추가03](/images/2020-10-07-outlook에_메일_보관하기/003.png)
