@@ -2,123 +2,38 @@
 layout: default
 background: '/images/2020-10-07-outlook에_메일_보관하기/001.png'
 ---
+---
+layout: post
+title: outlook 메일 삭제 방지
+categories: job
+---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+회사 메일 관리 정책등에 의해 파일이 삭제 될때 outlook을 이용해 메일을 보관하는 방법을 정리한다.
 
-[Link to another page](./another-page.html).
+### outlook 데이터 파일을 추가
 
-There should be whitespace between paragraphs.
+데이터 파일을 추가한다.
+추가를 위한 메뉴는 다음 경로와 같다.  
+`파일 | 정보(탭) | 계정설정 | 계정설정 | 데이터 파일(탭) | 추가`  
+<div>
 
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
+![데이터파일추가01](/images/2020-10-07-outlook에_메일_보관하기/001.png)</div>
 
-# Header 1
+![데이터파일추가02](/images/2020-10-07-outlook에_메일_보관하기/002.png)
+![데이터파일추가03](/images/2020-10-07-outlook에_메일_보관하기/003.png)
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+### 데이터 파일내 보관함 추가
+추가된 데이터 파일에 보관함을 추가하고, 본인이 원하는 메일 관리 정책을 설정한다.
 
-## Header 2
+<div>
 
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
+![보관함추가](/images/2020-10-07-outlook에_메일_보관하기/004.png)  
 
-### Header 3
+</div>
 
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
+### 수신메일 보관함에 복사/이동
+수신한 메일중 보관하고 싶은 메일을 생성한 메일함으로 옮기면 설정한 메일 관리 정책에 따라 보관된다.
 
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
-
-* * *
-
-### Here is an unordered list:
-
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
-
-
-### Definition lists can be used with HTML syntax.
-
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
-
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
-
-```
-The final element.
-```
+|test||
+|-|-|
+|1|2|
