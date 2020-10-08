@@ -1,9 +1,5 @@
 ---
 layout: default
-background: '/images/2020-10-07-outlook에_메일_보관하기/001.png'
----
----
-layout: post
 title: outlook 메일 삭제 방지
 categories: job
 ---
