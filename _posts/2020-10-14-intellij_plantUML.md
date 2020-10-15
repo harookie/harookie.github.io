@@ -6,7 +6,7 @@ categories: IntelliJ PlantUML
 
 intelliJ에서 PlantUML 세팅
 
-##### 설정
+#### 설정
 
 아래 메뉴에서 PlantUML framework를 설치한다.
 

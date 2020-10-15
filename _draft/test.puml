@@ -6,6 +6,7 @@ box "TANGO" #lightblue
     queue queue
     participant biz_process
     participant datasync
+
 end box
 box "CMS"
     participant CMS
