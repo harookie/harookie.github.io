@@ -6,11 +6,11 @@ box "TANGO" #lightblue
     queue queue
     participant biz_process
     participant datasync
+
 end box
 box "CMS"
     participant CMS
 end box
-
 
 queue <- biz_process: Queue listen
 queue <- datasync: Queue listen
