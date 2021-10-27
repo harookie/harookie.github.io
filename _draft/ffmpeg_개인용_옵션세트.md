@@ -25,7 +25,7 @@ $ # 영상 합치기 2, 1방법이 안될때 사용
 $ # fl.txt내에 아래 내용이 들어가야함.
 $ # file 'in1.mp4'
 $ # file 'in2.mp4'
-$ ffmpeg -hide_banner -f concat -i fl.txt "out.mp4"
+$ ffmpeg -hide_banner -f concat -safe 0 -i fl.txt "out.mp4"
 ```
 
 
