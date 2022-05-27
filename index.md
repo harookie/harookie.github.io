@@ -1,1 +1,1 @@
-[test4](_posts/2017-12-13-IntelliJ-Python-Remote-디버깅.md)  
+[test4](_posts/develop/tool/2017-12-13-IntelliJ-Python-Remote-디버깅.md)  
