@@ -1,8 +1,20 @@
 # url : "https://harookie.github.io"
 # baseurl : "https://harookie.github.io"
 # remote_theme: samarsault/plainwhite-jekyll
-# theme: jekyll-theme-architect
+
+plugins:
+  - jekyll-paginate-v2
 
 permalink: /:title
 
 theme: jekyll-theme-minimal
+
+pagination:
+  enabled: true
+  per_page: 12
+  sort_reverse: true
+  sort_field: 'date'
+  title: ':title'
+  trail:
+    before: 2
+    after: 2
