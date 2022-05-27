@@ -1,6 +1,7 @@
 ---
 layout: post
 title: IntelliJ Python Remote 디버깅
+tags: 개발 tool
 ---
 
 # 문서 수정 사항
@@ -109,7 +110,7 @@ AP 서버에서 클라이언트 스크립트 실행
 ![pic_debugging]
 
 [pypi.org/project/pydevd-pycharm]: https://pypi.org/project/pydevd-pycharm/
-[debug configuration]: ./_img/2017-12-13-IntelliJ-Python-Remote-디버깅/001.png
-[run debugging]: _img/2017-12-13-IntelliJ-Python-Remote-디버깅/002.png
-[run client script]: ../_img/2017-12-13-IntelliJ-Python-Remote-디버깅/003.png
-[pic_debugging]: /_img/2017-12-13-IntelliJ-Python-Remote-디버깅/004.png
+[debug configuration]: ./img/2017-12-13-IntelliJ-Python-Remote-디버깅/001.png
+[run debugging]: img/2017-12-13-IntelliJ-Python-Remote-디버깅/002.png
+[run client script]: ../img/2017-12-13-IntelliJ-Python-Remote-디버깅/003.png
+[pic_debugging]: /img/2017-12-13-IntelliJ-Python-Remote-디버깅/004.png
