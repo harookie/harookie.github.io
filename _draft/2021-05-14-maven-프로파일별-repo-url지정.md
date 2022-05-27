@@ -11,4 +11,4 @@ pom.xml 내용중 필요한 내용만 발췌해 전후를 비교하면 아래와
 
 ![비교]
 
-[비교]: ../images/_single_pic/2021-05-14-maven-프로파일별-repo-url지정.png
+[비교]: ../_img/_single_pic/2021-05-14-maven-프로파일별-repo-url지정.png
