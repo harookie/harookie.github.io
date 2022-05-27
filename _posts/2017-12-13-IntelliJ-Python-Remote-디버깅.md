@@ -113,3 +113,4 @@ AP 서버에서 클라이언트 스크립트 실행
 [run debugging]: _img/2017-12-13-IntelliJ-Python-Remote-디버깅/002.png
 [run client script]: ../_img/2017-12-13-IntelliJ-Python-Remote-디버깅/003.png
 [pic_debugging]: /_img/2017-12-13-IntelliJ-Python-Remote-디버깅/004.png
+<img src="../_img/2017-12-13-IntelliJ-Python-Remote-디버깅/003.png" alt="run client script">
