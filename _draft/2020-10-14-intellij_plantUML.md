@@ -12,7 +12,7 @@ intelliJ에서 PlantUML 세팅
 
 `File | Settings | Languages & Frameworks | Markdown`
 
-![](/images/_single_pic/2020-10-14-intellij_plantUML.png)
+![](/_img/_single_pic/2020-10-14-intellij_plantUML.png)
 
 #### 인트라넷 세팅
  인터넷이 연결된 환경에서 위의 작업을 수행하면 아래 경로에서 `plantuml.jar`을 찾을수 있다.
