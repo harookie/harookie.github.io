@@ -1,6 +1,3 @@
-ffmpeg 명령 샘플
-===
-
 ### 추가할 내용
 - 사운드파일에 앨범이미지 삽입하기
   - 참고 링크 : `https://www.wrapuppro.com/programing/view/9dHUHYC3FXbQp1b`

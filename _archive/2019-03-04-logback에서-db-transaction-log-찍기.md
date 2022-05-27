@@ -1,6 +1,3 @@
-logback에서 db transaction log 찍기
-===
-
 ### 설정 추가하기
 
 ```xml
