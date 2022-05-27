@@ -1,7 +1,8 @@
 # url : "https://harookie.github.io"
 # baseurl : "https://harookie.github.io"
-imgpath : "https://harookie.github.io/_img"
 # remote_theme: samarsault/plainwhite-jekyll
 # theme: jekyll-theme-architect
+
+permalink: /:title
 
 theme: jekyll-theme-minimal
