@@ -1,6 +1,3 @@
-python 코드 이용한 설정
-===
-
 ```python
 # src/main/main.py
 import sys
