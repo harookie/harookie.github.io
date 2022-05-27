@@ -2,4 +2,4 @@ remote_theme: samarsault/plainwhite-jekyll
 url : "https://harookie.github.io"
 baseurl : ""
 
-theme: jekyll-theme-architect
+theme: jekyll-theme-minimal
