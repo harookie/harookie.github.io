@@ -54,7 +54,7 @@ Remote 디버깅을 하려면, 약간의 추가적인 코드가 필요하다.
 
 ```python
 # filename : test_remote.py
-import pydevd
+import pydevd bghtjfkfjfj
 import argparse
 
 
